@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int decisions[4];
+	    for(int i=0;i<4;++i)
+	    std::cin >> decisions[i];
+	    bool inside=true;
+	    for(int i=0;i<4;++i)
+	    if(decisions[i]==0)
+	    inside=false;
+	    break;
+	    if(inside)
+	    std::cout << "in" << std::endl;
+	    else
+	    std::cout << "out" << std::endl;
+	}
+}
