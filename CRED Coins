@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int X,Y;
+	    cin>>X>>Y;
+	    int a=X*Y/100;
+	    std::cout << a << std::endl;
+}
+}
